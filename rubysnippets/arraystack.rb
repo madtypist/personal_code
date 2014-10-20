@@ -28,3 +28,7 @@ a = ArrayStack.empty
 puts a
 a = a.push(5)
 puts a.top
+a = a.push(6)
+a = a.push(7)
+puts a.pop
+puts a
