@@ -25,8 +25,17 @@ println(s"3: ${info._3}")
 
 
 println("\n\n****** Exercises *********")
+println("Exercise 1")
 println(convertToF(20))
+
+println("Exercise 2")
 println(convertToC(75))
+
+println("Exercise 3")
+val ex3 = 2.7255
+val ex3a = f"${ex3}%.2f"
+val strEx3 = "You owe $" + ex3a
+println(strEx3)
 
 def convertToF(temp:Int) :Int ={
   val result1 = temp * 9 / 5
