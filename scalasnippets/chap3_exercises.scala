@@ -40,3 +40,20 @@ println("\n====checkVals2")
 println(checkVals2(10))
 println(checkVals2(0))
 println(checkVals2(-10))
+
+// 4. Print 1 to 100, five on each line
+for (row <- 0 to 19) {
+  for (item <- 1 to 5) {
+    print(s"${row*5 + item}, ")
+  }
+  print("\n")
+}
+
+// 5. FizzBuzz, but with TypeSafe instead
+for (i <- 1 to 100) {
+  if (i % 15 == 0) println("typesafe") else {
+    if (i % 3 == 0) println("type") else {
+      if (i % 5 == 0) println("safe") else println(s"$i")
+    }
+  }
+}
